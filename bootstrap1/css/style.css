@@ -1,0 +1,37 @@
+html,body,header, #intro{
+	height: 100%;
+}
+#intro{
+	background: url(https://sun3-1.userapi.com/c830308/v830308330/1a3828/DAaG_hdams8.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.collapse{
+	margin-left: 100px;
+}
+.top-nav-collapse{
+	background-color: #24355C;
+}
+#intro{
+	background: url(https://sun3-1.userapi.com/c830308/v830308330/1a3828/DAaG_hdams8.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.exampless_bg{
+background: url(https://pp.userapi.com/c850528/v850528969/15658/2kl_4jSqksA.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background-color: #24355C;
+	}
+}
+@media (max-width: 990px) {
+	.map1{
+		margin-bottom: 2%;
+	}
+}
+
