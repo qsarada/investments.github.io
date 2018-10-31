@@ -1,0 +1,710 @@
+html,body,header{
+	height: 100%;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.eot');
+    src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'),
+        url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff'),
+        url('CenturyGothic.ttf') format('truetype'),
+        url('CenturyGothic.svg#CenturyGothic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Museo Sans Cyrl 100';
+    src: url('MuseoSansCyrl-100.eot');
+    src: url('MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSansCyrl-100.woff2') format('woff2'),
+        url('MuseoSansCyrl-100.woff') format('woff'),
+        url('MuseoSansCyrl-100.ttf') format('truetype'),
+        url('MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 500';
+    src: url('MuseoSansCyrl-500.eot');
+    src: url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSansCyrl-500.woff2') format('woff2'),
+        url('MuseoSansCyrl-500.woff') format('woff'),
+        url('MuseoSansCyrl-500.ttf') format('truetype'),
+        url('MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:  none;
+}
+li{
+    list-style: none;
+}
+html{
+    font-size: 20px;
+}
+h1{
+
+    font-family: 'Century Gothic';   
+}
+p{
+    font-family: 'MMuseo Sans Cyrl 100';
+    font-size: 15px;    
+}
+.top-nav-collapse{
+	background-color: #24355C;
+}
+#intro{
+	background: url(https://pp.userapi.com/c846524/v846524083/117be2/ZPd1D9amqCA.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.nav1{
+	font-size: 20px;
+	font-family: 'Century Gothic Regular';
+}
+.nav1:hover{
+		border: 1px solid #fff;
+		border-radius: 8px 8px;
+}
+.number{
+	padding-left: 12.5rem;
+}
+.section_1-content p{
+	font-size: 20px;
+	font-family: 'Century Gothic Regular';
+	padding-top: 2rem;
+	padding-bottom: 2.3rem;
+}
+.section_1-content h1{
+	font-size: 45px;
+	font-family: 'Century Gothic Regular';
+	padding-top: 11.75rem;
+}
+
+.bt1{
+	margin-bottom: 11rem;
+	background-color: #0309cd;
+	color: #fff; 
+	height: 3rem;
+	width: 15rem;
+	border: none;
+	border-radius: 8px 8px;
+	font-size: 20px;
+	font-family: 'Century Gothic Regular';
+	font-weight: 400;
+}
+.section_1-content i{
+	color: grey;
+	padding: 0 0.5rem;
+	padding-bottom: 2.4rem;
+}
+.line{
+	padding-top: 3rem;
+	width: 45rem;
+	border-bottom: 1px solid #34343b;
+}
+.section_2 h1{
+	padding-top: 6rem;
+	font-size: 45px;
+	font-family: 'Century Gothic Regular';	
+}
+.section_2-content{
+	padding-top: 2.6rem;
+
+}
+.section_2-content p{
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100';
+}
+.section_2-right a{
+	color: #000;
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100';
+}
+.right-2-left:after{
+		content: "";
+		display: block;
+		margin: 0 auto;
+		width: 108px;
+		border-bottom:1px solid;
+		color: #000;
+	}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+
+
+.grid figure figcaption {
+	padding: 5.1em 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+.grid figure .p1 {
+	margin: 0;
+}
+.grid figure .p2 {
+	margin: 0;
+}
+.grid figure .p1 {
+	letter-spacing: 2px;
+	font-size: 68.5%;
+}
+.grid figure .p2 {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+
+/*-----------------*/
+/***** Steve *****/
+/*-----------------*/
+
+figure.effect-steve {
+	z-index: auto;
+	overflow: visible;
+	background: #fff;
+}
+
+figure.effect-steve:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: white;
+	content: '';
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+
+
+figure.effect-steve figcaption {
+	z-index: 1;
+}
+
+figure.effect-steve img {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: perspective(1000px) translate3d(0,0,0);
+	transform: perspective(1000px) translate3d(0,0,0);
+}
+
+figure.effect-steve .p1 {
+	font-family: 'Century Gothic Regular';
+	width: 14rem;
+	background: #fff;
+	color: #000;
+}
+figure.effect-steve .p2 {
+	font-family: 'Century Gothic Regular';
+	font-size: 20px;
+	width: 3rem;
+	background: #fff;
+	color: #000;
+}
+
+figure.effect-steve .p1 {
+	margin-top: 1em;
+	padding: 0.5em;
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+}
+figure.effect-steve .p2 {
+	margin-left: 12em;
+	padding: 0.2em;
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+}
+
+figure.effect-steve:hover:before {
+	opacity: 1;
+}
+
+figure.effect-steve:hover img {
+	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
+	transform: perspective(1000px) translate3d(0,0,21px);
+}
+
+
+figure.effect-steve:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+
+
+
+.filter-button{
+	padding: 0.6rem 0.5rem;
+	border: 1px solid #fff;
+	background-color: #fff;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Century Gothic Regular';	
+
+}
+.filter-button:hover{
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+.center_button{
+	margin: 0 11rem;
+}
+.btn-default:active .filter-button:active{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image{
+    width: 100%;
+}
+
+.gallery_product{
+    margin-bottom: 30px;
+}
+.content_3{
+	display: flex;
+}
+.section_3-content{
+	background-color: #000;
+}
+.carousel_section3{
+	width: 62.50%;
+}
+.text_section3{
+	width: 37.50%;
+	color: #fff;
+	font-size: 15;
+	font-family: 'Museo Sans Cyrl 100';
+}
+.text_section3 p{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100';
+}
+.section3_p1{
+	padding-top: 7.5em;
+}
+.slide1{
+	position: absolute;
+	z-index: 3;
+}
+.slide2{
+	position: absolute;
+	z-index: 2;
+}
+.slide3{
+	position: absolute;
+	z-index: 1;
+}
+.bt1{
+	cursor: pointer;
+}
+.section_4{
+	padding-top:38rem;
+}
+.section_4 h1{
+	padding-top: 6rem;
+}
+.section_4-content p{
+	font-size: 20px;
+	font-family: 'Museo Sans Cyrl 100';
+}
+.section4_p{
+	font-weight: bold;
+}
+.numbers{
+ 	padding-bottom: 6rem;
+}
+
+
+
+
+
+.grid1 {
+	width: 10rem;
+	position: absolute;
+	margin: 0 auto;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.right_grid .grid1 figure figcaption {
+	padding: 0.9rem 0rem;
+	color: #fff;
+	font-size: 22px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.grid1 figure figcaption {
+	padding: 3.2rem 0rem;
+	color: #fff;
+	font-size: 22px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid1 figure figcaption::before,
+.grid1 figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid1 figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+
+.grid1 figure .p1 {
+	margin: 0;
+}
+.grid1 figure .p1 {
+	font-family: 'Century Gothic Regular';
+	letter-spacing: 1px;
+	font-size: 70%;
+	background: #fff;
+	color: #000;
+}
+
+
+
+/*-----------------*/
+/***** Steve *****/
+/*-----------------*/
+
+figure.effect-steve1 {
+	z-index: auto;
+	overflow: visible;
+	background: white;
+}
+
+
+
+
+figure.effect-steve1 figcaption {
+	z-index: 1;
+}
+
+figure.effect-steve1 img {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: perspective(1000px) translate3d(0,0,0);
+	transform: perspective(1000px) translate3d(0,0,0);
+}
+figure.effect-steve1 .p1 {
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+}
+figure.effect-steve1:hover:before {
+	opacity: 1;
+}
+
+figure.effect-steve1:hover img {
+	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
+	transform: perspective(1000px) translate3d(0,0,21px);
+}
+
+
+figure.effect-steve1:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+.text2{
+	display: none;
+}
+.text3{
+	display: none;
+}
+.text4{
+	display: none;
+}
+.section_5 h1{
+	font-size: 45px;
+	font-family: 'Century Gothic Regular';	
+}
+#section-5{
+	background: url(https://pp.userapi.com/c851232/v851232726/2fe53/9qiJ1o7ueZk.jpg) no-repeat center center ;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.section_5-content input{
+	width: 9.5rem;
+	height: 2.5rem;
+	border-radius: 10px;	
+}
+.inputs h4{
+	letter-spacing: 1px;
+	font-size: 24px;
+	font-family: 'Century Gothic Regular';	
+	padding-top: 2rem;
+	color: #FFF;
+	padding-bottom: 0.4rem;
+}
+.inputs span{
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-family: 'Century Gothic Regular';	
+	padding-top: 2rem;
+	color: #FFF;
+}
+.section_5-bt1{
+	padding-top: 3rem;
+}
+.section_5-bt1 p{
+	background-color: #fff;
+	width: 12rem;
+	height: 3rem;
+	color: #000;
+ 	border: 2px solid #fff;
+ 	font-size: 40px;
+ 	border-radius: 10px;
+ 	text-align: center;	
+}
+.section_5-bt1 h6{
+
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-family: 'Century Gothic Regular';	
+}
+.inputs{
+	height: 10rem;
+}
+.proc10{
+ 	padding-top: 6rem;
+ 	padding-bottom: 8rem;
+}
+
+
+
+.grid2 {
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+
+
+.grid2 figure figcaption {
+	padding: 5.1em 1rem;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid2 figure figcaption::before,
+.grid2 figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid2 figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid2 figure .p11 {
+	margin: 0;
+}
+.grid2 figure .p11 {
+	letter-spacing: 2px;
+	font-size: 80%;
+	font-family: 'Century Gothic Regular';	
+}
+
+figure.effect-steve2 {
+	width: 25rem;
+	z-index: auto;
+	overflow: visible;
+	background: none;
+}
+
+figure.effect-steve2:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: white;
+	content: '';
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+
+
+figure.effect-steve2 figcaption {
+	z-index: 1;
+}
+
+figure.effect-steve2 img {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: perspective(1000px) translate3d(0,0,0);
+	transform: perspective(1000px) translate3d(0,0,0);
+}
+
+figure.effect-steve2 .p11 {
+	width: 24rem;
+	background: #fff;
+	color: #000;
+}
+figure.effect-steve2 .p11 {
+	margin-top: 6rem;
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+}
+figure.effect-steve2:hover:before {
+	opacity: 1;
+}
+
+figure.effect-steve2:hover img {
+	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
+	transform: perspective(1000px) translate3d(0,0,21px);
+}
+
+
+figure.effect-steve2:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+.section_6 h1{
+	padding-top: 6rem;
+	font-size: 45px;
+	font-family: 'Century Gothic Regular';	
+}
+
+.footer_right h6{
+	font-size: 20px;
+	font-family: 'Century Gothic Regular';	
+}
+.footer_right1{
+	padding-top: 2.1rem;
+}
+.footer_right{
+	padding-top: 1rem;
+	padding-left: 1.5rem;
+}
+.card{
+	color: #fff;
+	background-color: #000;
+	margin-top: 2rem;
+	height: 25rem;
+}
+footer{
+	color: #fff;
+	margin-top: 6rem;
+	background-color: #000;
+}
+.footer_text p{
+	padding-top: 1.5rem;
+	font-size: 16px;
+	font-family: 'Century Gothic Regular';	
+}
+.footer_text li{
+	font-size: 16px;
+	font-family: 'Century Gothic Regular';	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background-color: #24355C;
+	}
+}
